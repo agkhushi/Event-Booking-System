@@ -1,0 +1,200 @@
+.event-details-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.event-details-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.event-image-large {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.event-image-large img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 40px;
+}
+
+.event-info h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.event-info .category-badge {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.event-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.meta-item {
+  display: flex;
+  gap: 10px;
+}
+
+.meta-item .icon {
+  font-size: 24px;
+}
+
+.meta-item strong {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.meta-item p {
+  color: #333;
+  font-size: 16px;
+  margin: 0;
+}
+
+.meta-item .address {
+  font-size: 14px;
+  color: #666;
+}
+
+.description {
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+}
+
+.description h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.description p {
+  line-height: 1.8;
+  color: #666;
+  font-size: 16px;
+}
+
+.booking-section {
+  border-top: 2px solid #eee;
+  padding-top: 30px;
+}
+
+.price-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.price-label {
+  font-size: 18px;
+  color: #666;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #28a745;
+}
+
+.seats-selector {
+  margin-bottom: 20px;
+}
+
+.seats-selector label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #555;
+}
+
+.seats-selector input {
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.total-price {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #e7f3ff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-large {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.sold-out {
+  text-align: center;
+  padding: 40px;
+  background: #f8d7da;
+  border-radius: 8px;
+  color: #721c24;
+}
+
+.payment-section {
+  border-top: 2px solid #eee;
+  padding-top: 30px;
+}
+
+.payment-section h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.payment-form {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.payment-form .btn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .event-image-large {
+    height: 250px;
+  }
+
+  .event-info {
+    padding: 20px;
+  }
+
+  .event-info h1 {
+    font-size: 28px;
+  }
+
+  .event-meta {
+    grid-template-columns: 1fr;
+  }
+}
