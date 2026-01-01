@@ -456,23 +456,10 @@ Error: Invalid login
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## License
-
-This project is licensed under the ISC License.
 
 ## Support
 
 For issues and questions:
 - Create an issue in the repository
-- Contact: your_email@example.com
+- Contact: mailkhushiag.21@gmail.com
 
-## Acknowledgments
-
-- React team for the amazing framework
-- Stripe for payment processing
-- MongoDB for the database solution
-- All open-source contributors
-
----
-
-**Built with ❤️ using React and Node.js**
